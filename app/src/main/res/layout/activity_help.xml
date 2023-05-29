@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar" />
+
+    <!-- 应用图标 -->
+    <ImageView
+        android:id="@+id/app_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_below="@id/toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:src="@drawable/meteormemo" />
+
+    <!-- 开发者信息 -->
+    <TextView
+        android:id="@+id/developer_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/app_icon"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="@string/developer_info"
+        android:textAppearance="?android:textAppearanceMedium" />
+
+    <!-- 个人主页按钮 -->
+    <Button
+        android:id="@+id/open_profile_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/developer_info"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:onClick="openDeveloperProfile"
+        android:text="@string/open_profile_button" />
+
+</RelativeLayout>

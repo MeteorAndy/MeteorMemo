@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MeteorMemo</string>
+    <string name="file_manager">文件管理</string>
+    <string name="editor">编辑器</string>
+    <string name="preview">预览</string>
+    <string name="settings">设置</string>
+    <string name="help">帮助</string>
+    <string name="create_file">创建文件</string>
+    <string name="menu_preview">预览</string>
+    <string name="menu_settings">设置菜单</string>
+    <string name="menu_help">帮助页面</string>
+    <string name="menu_delete">删除</string>
+    <string name="menu_rename">重命名</string>
+    <string name="action_save">保存</string>
+    <string name="action_undo">撤销</string>
+    <string name="action_redo">重做</string>
+    <string name="theme_setting">主题设置</string>
+    <string name="dark_mode">夜间模式</string>
+    <string name="text_size">字体大小</string>
+    <string name="developer_info">20本计算机10班王禧龙</string>
+    <string name="open_profile_button">点击访问作者的个人主页</string>
+</resources>
